@@ -12,7 +12,6 @@ public class Principal {
         meuFIlme.avalia(10);
         meuFIlme.avalia(10);
         meuFIlme.avalia(20);
-        System.out.println(meuFIlme.getTotalDeAvaliacoes());
         System.out.println(meuFIlme.retornaMediaAvaliacoes());
 
 
