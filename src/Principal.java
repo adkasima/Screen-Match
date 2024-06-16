@@ -1,4 +1,5 @@
 import br.com.alura.screenmatch.modelos.Filme;
+import br.com.alura.screenmatch.modelos.Serie;
 
 public class Principal {
     public static void main(String[] args) {
@@ -13,6 +14,11 @@ public class Principal {
         meuFIlme.avalia(10);
         meuFIlme.avalia(20);
         System.out.println(meuFIlme.retornaMediaAvaliacoes());
+
+        Serie arcane = new Serie();
+        arcane.setNome("Arcane");
+        arcane.setAnoDeLancamento(2021);
+        arcane.exibeFichaTecnica();
 
 
     }
